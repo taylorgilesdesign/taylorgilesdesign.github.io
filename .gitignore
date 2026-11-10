@@ -1,0 +1,24 @@
+# Windows and OneDrive folder files (never part of the website)
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Taylor's original vanity render. The site uses an identical copy at
+# assets/images/vanity-home.png, so the original stays on this computer
+# but isn't uploaded (avoids publishing the same 1.9 MB image twice).
+Timeless Walnut Vanity with Scalloped Mirror.png
+
+# Backups, archives and temporary files
+*.zip
+*.rar
+*.7z
+*BACKUP*
+*backup*
+~$*
+*.tmp
+*.bak
+New folder/
+
+# Editor / tool folders (in case they are ever created)
+.vscode/
+node_modules/
